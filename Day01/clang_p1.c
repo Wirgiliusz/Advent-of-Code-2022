@@ -20,10 +20,8 @@ int main() {
     while (fgets(buf, MAX_DIGITS, fd) != NULL)  {
         if (buf[0] != '\n') {
             calories = atoi(buf);
-            printf("cal: %d\n", calories);
             calories_sum += calories;
         } else {
-            printf("sum: %d\n\n", calories_sum);
             if (calories_sum > max_calories) {
                 max_calories = calories_sum;
             }
