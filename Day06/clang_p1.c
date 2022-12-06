@@ -3,6 +3,8 @@
 
 // Bad hard-coded solution
 // But fast to implement
+// Part 2 has way better solution to this problem
+// but I am keeping this one here.
 int last_four_different(char *arr) {
     if (arr[0] != arr[1] &&
         arr[0] != arr[2] &&
